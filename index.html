@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website of [NAME], a college student studying [COURSE].">
+  <title>[NAME] | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Go to homepage">[NAME]</a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="main-navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-decoration hero-decoration-one"></div>
+      <div class="hero-decoration hero-decoration-two"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>[NAME]</span></h1>
+        <p class="hero-tagline">
+          A college student learning, growing and preparing for a meaningful career.
+        </p>
+        <p class="hero-subtitle">[COURSE] student • [SUBJECT] • [CITY]</p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Know More About Me</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="image-glow"></div>
+        <img src="image/profile.jpg"
+          alt="Professional portrait of [NAME], a college student"
+          class="profile-image">
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="section-label">ABOUT ME</p>
+        <h2>A student with curiosity, <span>ambition and purpose.</span></h2>
+      </div>
+
+      <div class="about-content">
+        <p class="about-text">
+          I am a college student currently pursuing [COURSE] in [YEAR] at
+          [COLLEGE], [CITY]. My academic journey is helping me build a strong
+          foundation in [SUBJECT] while developing a better understanding of
+          my interests and future career direction.
+        </p>
+        <p class="about-text">
+          I enjoy learning new things, improving myself and exploring
+          opportunities that can help me grow both personally and academically.
+          I believe that consistent learning, a positive attitude and a clear
+          sense of purpose are important steps toward building a successful
+          future.
+        </p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <p class="section-label">EDUCATION</p>
+        <h2>My academic <span>journey.</span></h2>
+      </div>
+
+      <article class="education-card">
+        <div class="education-icon" aria-hidden="true">🎓</div>
+
+        <div class="education-details">
+          <p class="card-label">CURRENT EDUCATION</p>
+          <h3>[COURSE]</h3>
+          <p class="education-year">[YEAR]</p>
+
+          <div class="education-info">
+            <div>
+              <strong>Main Subject</strong>
+              <span>[SUBJECT]</span>
+            </div>
+            <div>
+              <strong>College</strong>
+              <span>[COLLEGE]</span>
+            </div>
+            <div>
+              <strong>City</strong>
+              <span>[CITY]</span>
+            </div>
+          </div>
+
+          <p class="education-description">
+            My education is helping me develop academic knowledge,
+            broaden my understanding of my main subject and prepare
+            for my future career goals.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section interests-section" id="interests">
+      <div class="section-heading">
+        <p class="section-label">INTERESTS</p>
+        <h2>Things that <span>inspire me.</span></h2>
+      </div>
+
+      <p class="section-introduction">
+        My interests reflect the areas I enjoy exploring and learning about.
+        They give me opportunities to stay curious, develop myself and
+        discover new possibilities for the future.
+      </p>
+
+      <div class="interest-grid">
+        <article class="interest-card">
+          <div class="interest-number">01</div>
+          <h3>[INTEREST 1]</h3>
+          <p>An area that I enjoy exploring and developing through learning and personal interest.</p>
+        </article>
+
+        <article class="interest-card">
+          <div class="interest-number">02</div>
+          <h3>[INTEREST 2]</h3>
+          <p>An interest that gives me an opportunity to learn, stay curious and develop new perspectives.</p>
+        </article>
+
+        <article class="interest-card">
+          <div class="interest-number">03</div>
+          <h3>[INTEREST 3]</h3>
+          <p>An area that motivates me to explore new ideas and continue improving myself.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section strengths-section" id="strengths">
+      <div class="section-heading">
+        <p class="section-label">STRENGTHS</p>
+        <h2>Qualities I bring <span>to my journey.</span></h2>
+      </div>
+
+      <div class="strengths-grid">
+        <article class="strength-card">
+          <span class="strength-number">01</span>
+          <h3>Willingness to Learn</h3>
+          <p>I am open to learning new concepts and continuously improving my understanding.</p>
+        </article>
+
+        <article class="strength-card">
+          <span class="strength-number">02</span>
+          <h3>Curiosity</h3>
+          <p>I enjoy exploring subjects and ideas that help me understand more about my interests.</p>
+        </article>
+
+        <article class="strength-card">
+          <span class="strength-number">03</span>
+          <h3>Consistency</h3>
+          <p>I value regular effort and believe steady progress is important for achieving long-term goals.</p>
+        </article>
+
+        <article class="strength-card">
+          <span class="strength-number">04</span>
+          <h3>Adaptability</h3>
+          <p>I aim to stay open-minded and adjust as I learn and experience new situations.</p>
+        </article>
+
+        <article class="strength-card">
+          <span class="strength-number">05</span>
+          <h3>Positive Attitude</h3>
+          <p>I approach my learning journey with a positive mindset and a focus on personal growth.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="career-section" id="goals">
+      <div class="career-decoration"></div>
+
+      <div class="career-content">
+        <p class="section-label">CAREER ASPIRATIONS</p>
+        <h2>Building my future <span>step by step.</span></h2>
+
+        <p>
+          My career goal is to build a meaningful professional future by
+          developing my knowledge, improving my abilities and gaining
+          experience through continuous learning. I want to use my education
+          and interests as a foundation for exploring opportunities related to
+          [CAREER GOAL].
+        </p>
+
+        <p>
+          I am focused on growing gradually as a student and preparing myself
+          for the opportunities that will help me move closer to my long-term
+          career aspirations.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="section-label">CONTACT</p>
+        <h2>Let's connect <span>and stay in touch.</span></h2>
+      </div>
+
+      <div class="contact-card">
+        <p>
+          If you would like to connect with me, you can use the contact
+          information available below.
+        </p>
+        <p class="contact-note">
+          Contact information will be added here when available.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a href="#home" class="footer-logo">[NAME]</a>
+      <p>Designed &amp; Built with AI by [NAME]</p>
+      <p class="copyright">&copy; 2026 [NAME]. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
